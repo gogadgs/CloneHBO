@@ -69,6 +69,7 @@ header .conteudoPrincipal p:nth-child(6) {
 
 
 
+
 /* seção de estilização de botoes generalistas */
 
 button{
@@ -100,7 +101,7 @@ button[type="submit"]{
     -ms-transition:background 1s, outline 1s ,transform 1s;
     -o-transition:background 1s, outline 1s ,transform 1s;
     /* prefixos navegadores */
-    background-size:250%;
+    background-size:400%;
 }
 button[type=submit]:hover{
     background-color:transparent;
@@ -277,35 +278,39 @@ header .dividir{
     background:var(--divisão-de-cor-de-fundo)
 }
 
-header .conteudoPrincipal  a[href="#ativarAssinatura"]{
+header .conteudoPrincipal  a{
     text-decoration:none;
     color:var(--cor-do-texto);
     font-family:var(--fonte-padrao);
     text-transform: uppercase;
-    font-size:0.785rem;
+    font-size:1.1rem;
     font-weight:700;
     letter-spacing: 3px;
     background:var(--botao-fundo-cor-gradiente);
     outline:3px solid transparent;
-    padding:10px 24px;
+    padding:20px 60px;
     cursor: pointer;
-    border-radius:20px;
+    border-radius:50px;
     transition:background 1s, outline 1s ,transform 1s;
     -webkit-transition:background 1s, outline 1s ,transform 1s;
     -moz-transition:background 1s, outline 1s ,transform 1s;
     -ms-transition:background 1s, outline 1s ,transform 1s;
     -o-transition:background 1s, outline 1s ,transform 1s;
-    /*prefixosnavegadores*/
-    background-size:250%;
-    -webkit-border-radius:20px;
-    -moz-border-radius:20px;
-    -ms-border-radius:20px;
-    -o-border-radius:20px;
+    /*prefixosnavegadores*/background-size:250%;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    -ms-border-radius:50px;
+    -o-border-radius:50px;
     animation: botaoMexer 2.2s linear infinite;
     -webkit-animation: botaoMexer 2.2s linear infinite;
 }
 
-
+header .conteudoPrincipal  a:hover{
+    background:var(--botao-fundo-cor);
+    border:1px solid var(--cor-secundária);
+    font-family: var(--fonte-padrao);
+    text-transform: uppercase;
+}
 
 
 
