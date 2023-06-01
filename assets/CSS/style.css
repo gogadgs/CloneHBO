@@ -307,9 +307,14 @@ header .conteudoPrincipal  a{
 
 header .conteudoPrincipal  a:hover{
     background:var(--botao-fundo-cor);
+    background-size: 100% 100%;
+    background-position: 100%;
     border:1px solid var(--cor-secundária);
     font-family: var(--fonte-padrao);
     text-transform: uppercase;
+    padding:20px 60px;
+    cursor: pointer;
+    border-radius:50px;
 }
 
 
