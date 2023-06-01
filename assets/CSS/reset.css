@@ -1,0 +1,13 @@
+
+/* seção de importação de fontes externas do google */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap");
+
+
+*{
+  /* fonte google utilizada */
+    font-family: var(--fonte-padrao);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
