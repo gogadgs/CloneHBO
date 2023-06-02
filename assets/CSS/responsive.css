@@ -1,15 +1,21 @@
 /* seção de responsividade mobile  */
 
+
+
 @media only screen and (max-width: 480px){
-   
+    section{
+        scroll-margin-top:120px;
+    }
 
     /*  seção do menu da tela mobile  */
     nav{
-        padding:32px 24px;
+        padding:32px 24px !important;
         align-items:flex-start;
         display:flex;
         flex-direction:column;
         gap:24px;
+        right:110px;
+        
     }
 
     nav a{

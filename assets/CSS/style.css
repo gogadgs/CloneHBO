@@ -140,7 +140,6 @@ nav a img{
 nav a img:nth-child(1){
     padding:0;
     max-width: 160px;
-    position:fixed;
     top:15px;
     max-height:160px;
 }
