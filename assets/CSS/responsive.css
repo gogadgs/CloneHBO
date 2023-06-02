@@ -1,0 +1,66 @@
+/* seção de responsividade mobile  */
+
+@media only screen and (max-width: 480px){
+   
+
+    /*  seção do menu da tela mobile  */
+    nav{
+        padding:32px 24px;
+        align-items:flex-start;
+        display:flex;
+        flex-direction:column;
+        gap:24px;
+    }
+
+    nav a{
+        max-width: 100px;
+    }
+
+    nav .acesso-login-site a{
+        margin:0;
+    }
+
+    /* seção caeçalho da pagina layout parallax */
+
+    header{
+        margin-top:128px !important;
+    }
+
+    section .conteudo-principal .descricao-plano p span{
+        font-size:1.5rem;
+    }
+
+   
+
+
+
+    /* seção do rodape mobile  */
+
+    footer a{
+        display:block;
+        margin:1px;
+    }
+
+    
+    footer .redes-sociais{
+        display:flex;
+        flex-direction:row;
+        justify-content:flex-start;
+        
+    }
+    footer .conteudo-principal-footer p{
+        margin:8px;
+        text-align:center;
+        justify-content: center;
+        align-items: center;
+        font-size:0.75rem !important;
+    }
+
+    footer .conteudo-principal-footer a{
+        margin:1rem 1rem !important;
+    }
+
+
+    
+    
+}

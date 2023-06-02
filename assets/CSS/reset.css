@@ -26,3 +26,10 @@
   ::-webkit-scrollbar-thumb:hover {
     background: var(--cor-secundária);
   }
+
+
+  @media only screen and (max-width: 480px){
+    section{
+      scroll-margin-top:120px;
+  }
+  }
