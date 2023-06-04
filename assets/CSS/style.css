@@ -102,6 +102,7 @@ button[type="submit"]{
     -o-transition:background 1s, outline 1s ,transform 1s;
     /* prefixos navegadores */
     background-size:400%;
+    margin-bottom:1.5rem;
 }
 button[type=submit]:hover{
     background-color:transparent;

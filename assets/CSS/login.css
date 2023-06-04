@@ -30,9 +30,10 @@ main {
 
 
 main section .conteudo-principal-login{
-    margin: 80px;
+    margin: 5rem 1rem;
     width:100%;
     max-width:800px;
+    min-width:20rem;
     /*tamanhoresponsivodireto*/
     
     background-color:var(--cor-de-fundo-formulário);

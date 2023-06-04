@@ -148,6 +148,20 @@
         height:auto;
     }
 
+    main section .conteudo-principal-login {
+    
+    margin:1rem !important;
+    display: flex;
+    flex-direction: column;
+    }
+
+    main section .conteudo-principal-login .açoes-do-login  button[type="submit"]{
+       margin-bottom:1rem;
+    }
+
+
+
+
     
     
 }
