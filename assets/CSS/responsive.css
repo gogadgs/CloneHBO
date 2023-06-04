@@ -12,9 +12,9 @@
         padding:32px 24px !important;
         align-items:flex-start;
         display:flex;
+        position: fixed !important;
         flex-direction:column;
         gap:24px;
-        right:110px;
         
     }
 
@@ -23,22 +23,60 @@
     }
 
     nav .acesso-login-site a{
-        margin:0;
+        margin:0 !important;
     }
+    
 
-    /* seção caeçalho da pagina layout parallax */
+    /* seção cabeçalho da pagina layout parallax */
 
     header{
         margin-top:128px !important;
     }
 
-    section .conteudo-principal .descricao-plano p span{
-        font-size:1.5rem;
+    /* seção principal do conteudo da página  */
+
+    main section .conteudo-principal{
+        background:var(--cor-primária) !important;
+        
     }
 
+    main section .conteudo-principal .descricao-plano {
+        display:flex;
+        flex-direction:column;
+
+    }
+
+    main section .conteudo-principal .descricao-plano p span{
+        font-size:1.5rem;
+    }
+    main section .conteudo-principal .descricao-planos{
+        flex-direction: column;
+        align-items: center;
+    }
+   .descricao-cards{
+        padding:40px !important;
+        background-color: var(--cor-de-cartao-de-fundo) !important;
+        max-width: 100% !important;
+      
    
+    }
 
 
+    /* seção da segunda seção do conteudo principal da página */
+
+    main section .conteudo {
+        display: grid !important;
+        grid-template-columns: repeat(6,100%) !important;
+        grid-auto-flow: column;
+        overflow: auto hidden;
+    }
+
+    section .conteudo  .cards-do-conteudo{
+        display: grid !important;
+    grid-template-columns: 1fr ! important;
+    }
+    
+   
 
     /* seção do rodape mobile  */
 
