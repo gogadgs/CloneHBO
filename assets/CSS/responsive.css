@@ -108,3 +108,46 @@
     
     
 }
+
+
+/*  seção de responsividade tablet  */
+
+
+@media only screen and (min-width:671px) and (max-width:800px){
+    
+
+    /* seção do conteudo principal no tablet */
+    /* seção um do conteudo principal da página */
+
+    main section .conteudo-principal .descricao-planos{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    /* seção dois do conteudo principal da pagina no tablet */
+    main section .conteudo{
+        grid-template-columns: repeat(2,1fr) !important;
+    }
+
+    /*  seção do rodapé da página np tablet */
+
+
+    
+
+
+}
+
+
+/*  seção de responsividade página login */
+
+
+@media screen and(max-width:480px) {
+    body{
+        height:auto;
+    }
+
+    
+    
+}

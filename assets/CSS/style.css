@@ -32,7 +32,7 @@
     --cor-de-fundo-formulário:rgba(211,211,211,0.06);
     --cor-de-fundo-campo-formulário:rgba(0,0,0,0.2);
     --cor-da-borda-do-campo-formulário:1px solid rgba(255,255,255,0.7);
-    --cor-da-entrada-de-dados-formulário:rgba(255,255,255,0.7);
+    --cor-da-entrada-de-dados-formulário:rgba(255, 255, 255, 0.7);
     --cor-de-erro-da-entrada-de-dados:rgba(255,76,76);
     scroll-behavior: smooth;
 
@@ -571,7 +571,7 @@ footer .conteudo-principal-footer a{
     color:var(--cor-do-link);
     text-transform:uppercase;
     text-decoration:none;
-    margin:0 2rem;
+    margin:0 1rem;
     letter-spacing:2px;
     transition:color 0.5s;
     -webkit-transition:color 0.5s;
@@ -580,14 +580,15 @@ footer .conteudo-principal-footer a{
     -o-transition:color 0.5s;
     /* prefixo dos navegadores */
     font-size:0.875rem;
+    
 
 }
 
 footer .conteudo-principal-footer  p{
     display:block;
-    margin-top:10px;
     font-size:0.875rem;
     color:var(--cor-do-link);
+    margin: 10px 2rem;
 }
 
 footer .conteudo-principal-footer a:hover{
@@ -602,7 +603,7 @@ footer .conteudo-principal-footer a:hover{
 footer .conteudo-principal-footer  .redes-sociais{
     display:flex;
     flex-direction:row;
-    margin-top:20px;
+    margin:20px;
     align-items:center;
     justify-content:center;
     gap:1px;

@@ -1,0 +1,146 @@
+/* importar estilizações da página anterior */
+
+@import url('./style.css');
+
+
+/* configuração do tamanho so scroll da página ou barra de rolagem vertical */
+body{
+    height:100vh;
+    background:linear-gradient(-45deg,#56125B,#0f0f10,#271e6e);
+    background-size:400% 400%;
+    animation:cor 10s ease infinite alternate;
+    -webkit-animation:cor 10s ease infinite alternate;
+    
+}
+
+/*  seção do conteudo principal da página  */
+
+
+main {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family:var(--fonte-paragrafo);
+    width:100%;
+    height:70%;
+    padding:24px;
+   
+    
+}
+
+
+main section .conteudo-principal-login{
+    margin: 80px;
+    width:100%;
+    max-width:800px;
+    /*tamanhoresponsivodireto*/
+    
+    background-color:var(--cor-de-fundo-formulário);
+    padding:40px;
+    gap:24px;
+    display:flex;
+    flex-direction:column;
+    border-radius:8px;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    -ms-border-radius:8px;
+    -o-border-radius:8px;
+    
+}
+
+main section .conteudo-principal-login form{
+    width:100%;
+    
+}
+
+main section .conteudo-principal-login form input[name="email"]{
+    margin:1rem 0;
+    width: 100%;
+    max-width:800px;
+}
+main section .conteudo-principal-login form input[name="password"]{
+    margin:1rem 0;
+    width: 100%;
+    max-width:800px;
+}
+
+main section .conteudo-principal-login form h1{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size:1.25rem;
+    margin-bottom:24px;
+    font-family:var(--fonte-padrao);
+}
+
+main section .conteudo-principal-login form label{
+    text-align:left;
+}
+
+main section .conteudo-principal-login form input{
+    background: var(--cor-de-fundo-campo-formulário);
+    border:var(--cor-da-borda-do-campo-formulário);
+    color:var(--cor-dor-texto);
+    border-radius:8px;
+    padding:16px;
+    font-size:1rem;
+    font-family:var(--fonte-padrao);
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    -ms-border-radius:8px;
+    -o-border-radius:8px;
+}
+
+main section .conteudo-principal-login form input::placeholder{
+    color:var(--cor-da-entrada-de-dados-formulário);
+}
+
+main section .conteudo-principal-login form input:invalid{
+    border-color:var(--cor-de-erro-da-entrada-de-dados);
+}
+main section .conteudo-principal-login .açoes-do-login{
+    margin-top:24px;
+   
+}
+main section .conteudo-principal-login .açoes-do-login a{
+    color:var(--cor-do-texto);
+    text-decoration:none;
+    margin-left:24px;
+    font-weight: bold;
+    background:var(--botao-fundo-cor-gradiente);
+    outline:3px solid transparent;
+    transition:background 1s, outline ,transform 1s;
+    -webkit-transition:background 1s, outline ,transform 1s;
+    -moz-transition:background 1s, outline ,transform 1s;
+    -ms-transition:background 1s, outline ,transform 1s;
+    -o-transition:background 1s, outline ,transform 1s;
+    background-size:400%;
+    padding:12px 40px;
+    border-radius:20px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    -ms-border-radius:20px;
+    -o-border-radius:20px;
+    cursor:pointer;
+}
+main section .conteudo-principal-login .açoes-do-login a[href="#"]:hover{
+    background-color:transparent;
+    background-position:100%;
+    outline:2px solid var(--cor-secundária);
+    transform:scale(1.10);
+    -webkit-transform:scale(1.10);
+    -moz-transform:scale(1.10);
+    -ms-transform:scale(1.10);
+    -o-transform:scale(1.10);
+    
+}
+
+footer{
+    margin:80px;
+}
+
+footer .conteudo-principal-footer p{
+    font-size:0.75rem;
+}
+
+
+
