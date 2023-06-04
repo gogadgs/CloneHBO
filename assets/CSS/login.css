@@ -31,13 +31,13 @@ main {
 
 main section .conteudo-principal-login{
     margin: 5rem 1rem;
-    width:100%;
-    max-width:800px;
-    min-width:20rem;
+    width: 100%;
+    max-width: 96%;
+    min-width: 80%;
     /*tamanhoresponsivodireto*/
     
     background-color:var(--cor-de-fundo-formulário);
-    padding:40px;
+    padding:2.5rem;
     gap:24px;
     display:flex;
     flex-direction:column;
@@ -103,9 +103,10 @@ main section .conteudo-principal-login .açoes-do-login{
    
 }
 main section .conteudo-principal-login .açoes-do-login a{
+    display: inline-block;
     color:var(--cor-do-texto);
     text-decoration:none;
-    margin-left:24px;
+    margin-left:1.5rem;
     font-weight: bold;
     background:var(--botao-fundo-cor-gradiente);
     outline:3px solid transparent;
@@ -116,11 +117,15 @@ main section .conteudo-principal-login .açoes-do-login a{
     -o-transition:background 1s, outline ,transform 1s;
     background-size:400%;
     padding:12px 40px;
-    border-radius:20px;
-    -webkit-border-radius:20px;
-    -moz-border-radius:20px;
-    -ms-border-radius:20px;
-    -o-border-radius:20px;
+    border-radius:30px;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    font-family: var(--fonte-padrao);
+    letter-spacing: 2px;
+    -webkit-border-radius:30px;
+    -moz-border-radius:30px;
+    -ms-border-radius:30px;
+    -o-border-radius:30px;
     cursor:pointer;
 }
 main section .conteudo-principal-login .açoes-do-login a[href="#"]:hover{
@@ -134,6 +139,9 @@ main section .conteudo-principal-login .açoes-do-login a[href="#"]:hover{
     -o-transform:scale(1.10);
     
 }
+
+
+/* seção do rodapé da página  */
 
 footer{
     margin:80px;
