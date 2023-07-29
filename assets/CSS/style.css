@@ -408,40 +408,82 @@ main section .conteudo-principal .descricao-planos:has(.descricao-cards:nth-chil
         -ms-transform: rotateY(-180deg);
         -o-transform: rotateY(-180deg);
         min-width:530px;
+       
 }
     .descricao-cards .plano-multitelas{
-        display: none;
-    }
+        transform: rotateY(-180deg);
+        -webkit-transform: rotateY(-180deg);
+        -moz-transform: rotateY(-180deg);
+        -ms-transform: rotateY(-180deg);
+        -o-transform: rotateY(-180deg);
+        min-width:530px;
+     backface-visibility: hidden;
+     -webkit-backface-visibility: hidden;
+}
 
     .descricao-cards:nth-child(2) h3{
-        display: none;
+        transform: rotateY(-180deg);
+        -webkit-transform: rotateY(-180deg);
+        -moz-transform: rotateY(-180deg);
+        -ms-transform: rotateY(-180deg);
+        -o-transform: rotateY(-180deg);
+        min-width:530px;
+        backface-visibility: hidden;
+     -webkit-backface-visibility: hidden;
     }
     .descricao-cards:nth-child(2)  button{
-        display: none;
+        transform: rotateY(-180deg);
+        -webkit-transform: rotateY(-180deg);
+        -moz-transform: rotateY(-180deg);
+        -ms-transform: rotateY(-180deg);
+        -o-transform: rotateY(-180deg);
+        min-width:530px;
+        backface-visibility: hidden;
+     -webkit-backface-visibility: hidden;
     }
         
 }
 main section .conteudo-principal .descricao-planos:has(.descricao-cards:nth-child(2):hover){
     .descricao-cards:nth-child(1){
-        animation:ocultar 2s forwards;
         transform: rotateY(180deg);
         -webkit-transform: rotateY(180deg);
         -moz-transform: rotateY(180deg);
         -ms-transform: rotateY(180deg);
         -o-transform: rotateY(180deg);
         min-width:530px;
-        -webkit-animation:ocultar 2s forwards;
+        
 }
         .descricao-cards .plano-mobile{
-            display: none;
-            
+            transform: rotateY(-180deg);
+            -webkit-transform: rotateY(-180deg);
+            -moz-transform: rotateY(-180deg);
+            -ms-transform: rotateY(-180deg);
+            -o-transform: rotateY(-180deg);
+            min-width:530px;
+            backface-visibility: hidden;
+            -webkit-backface-visibility: hidden;
+           
 }
     
         .descricao-cards:nth-child(1) h3{
-            display: none;
+            transform: rotateY(-180deg);
+            -webkit-transform: rotateY(-180deg);
+            -moz-transform: rotateY(-180deg);
+            -ms-transform: rotateY(-180deg);
+            -o-transform: rotateY(-180deg);
+            min-width:530px;
+            backface-visibility: hidden;
+            -webkit-backface-visibility: hidden;
         }
         .descricao-cards:nth-child(1)  button{
-            display: none;
+            transform: rotateY(-180deg);
+            -webkit-transform: rotateY(-180deg);
+            -moz-transform: rotateY(-180deg);
+            -ms-transform: rotateY(-180deg);
+            -o-transform: rotateY(-180deg);
+            min-width:530px;
+            backface-visibility: hidden;
+            -webkit-backface-visibility: hidden;
         }
 
        
